@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=MuseoModerno:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(https://m.media-amazon.com/images/I/A1bktGRAovL.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+h1{
+    font-size: 60px;
+}
+
+.loading{
+    width: 50px;
+}
+.coutdown{
+    transform: scale(2);
+    display: flex;
+    display: none;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   margin: 15px;
+}
+.time h2{
+    margin: 0 0 5px;
+}
+.year{
+    font-size: 200px;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+}
